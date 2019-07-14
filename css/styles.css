@@ -1,0 +1,68 @@
+body {
+    overflow: scroll;
+}
+
+.container {
+    width: 450px;
+    height: 270px;
+    background-color: rgb(30, 145, 255);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 270px 270px 0 0;
+    margin-top: 50px;
+}
+
+.top, .semi-top {
+    width: 130px;
+    height: 100px;
+    background-color: rgb(255, 215, 0);
+    margin: auto;
+    border: 5px solid rgb(0, 0, 0);
+}
+.top {
+    border-radius: 20px 20px 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.semi-top {
+    border-radius: 5px;
+}
+    
+
+.face {
+    width: 330px;
+    height: 200px;
+    background-color: rgb( 255, 222, 173);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 0px 0px 400px 450px;
+    float: left;
+}
+
+.left-face, .right-face {
+    width: 80px;
+    height: 100px;
+    background-color: rgb(255, 215, 0);
+    float: left;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.rockman-face {
+    
+}
+
+.triangle{
+    width: 50px;
+    height: 50px;
+    border-top: 50px solid #F0897F;
+    border-right: 50px solid transparent;
+    /* border-bottom: 70px solid transparent; */
+    border-left: 50px solid transparent;
+    float: left;
+}
+
+.eye {
+    width: 80px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    border-radius: 20px 50px 10px 0 ;
+}
