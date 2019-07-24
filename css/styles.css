@@ -2,6 +2,12 @@ body {
     overflow: scroll;
 }
 
+.hr {
+    height: 10px;
+    border: none;
+  border-top: 1px #000000 solid;
+}
+
 .container {
     width: 380px;
     height: 220px;
@@ -24,8 +30,8 @@ body {
 .top, .semi-top {
     width: 80px;
     height: 60px;
-    background-color: rgb(255, 215, 0);
-    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(255, 200, 0);
+    border: 3px solid rgb(0, 0, 0);
     /* display: block; */
     /* float: left; */
 }
@@ -42,7 +48,7 @@ body {
 .face {
     width: 300px;
     height: 200px;
-    background-color: rgb( 255, 222, 173);
+    background-color: rgb( 255, 217, 168);
     border: 5px solid rgb(0, 0, 0);
     border-radius: 0px 0px 400px 400px;
     float: left;
@@ -60,7 +66,7 @@ body {
 .left-face {
     width: 50px;
     height: 100px;
-    background-color: rgb(255, 215, 0);
+    background-color: rgb(255, 200, 0);
     float: left;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 70% 0 0 70%;
@@ -69,7 +75,7 @@ body {
 .right-face {
     width: 50px;
     height: 100px;
-    background-color: rgb(255, 215, 0);
+    background-color: rgb(255, 200, 0);
     float:left;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 0 70% 70% 0;
@@ -106,13 +112,14 @@ body {
 
 .left-eye {
     width: 70px;
-    height: 100px;
+    height: 95px;
     background-color: rgb(255, 255, 255);
     float: left;
-    border-radius: 50%;
+    border-radius: 50% 50% 45% 60%;
     /* margin-left: 30px; */
     /* display: block; */
     margin-left: 20px;
+    border-top: 4px solid rgb(0, 0, 0);
 }
 .left-eye-1 {
     width: 45px;
@@ -146,11 +153,12 @@ body {
 }
 .right-eye {
     width: 70px;
-    height: 100px;
+    height: 95px;
     background-color: rgb(255, 255, 255);
     float: right;
-    border-radius: 50%;
+    border-radius: 50% 50% 60% 45%;
     margin-right: 20px;
+    border-top: 4px solid rgb(0, 0, 0);
     /* margin-right: 30px; */
     /* display:block; */
 }
@@ -183,21 +191,21 @@ body {
 }
 
 .side-bar-left {
-    width: 35px;
+    width: 30px;
     height: 220px;
-    background-color:rgb(0, 255, 255);
+    background-color:rgb(127, 255, 212);
     float: left;
     display: block;
-    margin-left: 80px;
+    margin-left: 85px;
 }
 
 .side-bar-right {
-    width: 35px;
+    width: 30px;
     height: 220px;
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(127, 255, 212);
     float: left;
     /* display: block; */
-    margin-right: 80px;
+    margin-right: 85px;
 }
 .kobayshi {
     width: 90px;
@@ -210,7 +218,7 @@ body {
 .left-face-1 {
     width: 30px;
     height: 65px;
-    background-color: rgb(255, 200, 0);
+    background-color: rgb(255, 180, 0);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 75% 0 0 75%;
     float: right;
@@ -220,9 +228,24 @@ body {
 .right-face-1 {
     width: 30px;
     height: 65px;
-    background-color: rgb(255, 200, 0);
+    background-color: rgb(255, 180, 0);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 0 75% 75% 0;
     float: left;
     margin-top: 15px;
+}
+
+.nose  {
+    width: 2px;
+    height: 100px;
+    border-bottom: 10px solid rgb(0, 0, 0);
+    margin: auto;
+}
+
+.mouse {
+    height: 30px;
+    width: 120px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: auto;
+    /* border-radius: 5px; */
 }
