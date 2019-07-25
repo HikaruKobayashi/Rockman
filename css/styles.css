@@ -39,16 +39,18 @@ body {
     border-radius: 20px 20px 5px 5px;
     margin-top: 5px;
     margin-bottom: 35px;
+    box-shadow: -4px -4px rgb(255, 180, 0) inset;
 }
 .semi-top {
     border-radius: 5px;
+    box-shadow: 3px 3px 8px rgb(255, 255, 255) inset;
 }
     
 
 .face {
-    width: 300px;
+    width: 305px;
     height: 200px;
-    background-color: rgb( 255, 217, 168);
+    background-color: rgb( 255, 214, 165);
     border: 5px solid rgb(0, 0, 0);
     border-radius: 0px 0px 400px 400px;
     float: left;
@@ -57,7 +59,7 @@ body {
 }
 
 .hikaru {
-    width: 300px;
+    width: 305px;
     height: 200px;
     /* margin:auto; */
     text-align: center;
@@ -83,6 +85,7 @@ body {
 
 .rockman-face {
     border-collapse: collapse;
+    position: relative;
 }
 
 .triangle{
@@ -101,8 +104,8 @@ body {
     /* width: 100px; */
     height: 55px;
     border-top: 75px solid rgb(26, 140, 255);
-    border-right: 57px solid transparent;
-    border-left: 57px solid transparent;
+    border-right: 62px solid transparent;
+    border-left: 62px solid transparent;
     float: left;
     margin:auto;
 
@@ -223,6 +226,7 @@ body {
     border-radius: 75% 0 0 75%;
     float: right;
     margin-top: 15px;
+    display: absolute;
 }
 
 .right-face-1 {
@@ -233,6 +237,7 @@ body {
     border-radius: 0 75% 75% 0;
     float: left;
     margin-top: 15px;
+    position: absolute;
 }
 
 .nose  {
@@ -245,7 +250,7 @@ body {
 .mouse {
     height: 30px;
     width: 120px;
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
     margin: auto;
-    /* border-radius: 5px; */
+    border-radius: 75%;
 }
