@@ -55,7 +55,7 @@ body {
     border-radius: 0px 0px 400px 400px;
     float: left;
     text-align: center;
-    border-collapse: collapse;
+    /* border-collapse: ; */
 }
 
 .hikaru {
@@ -72,7 +72,8 @@ body {
     float: left;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 70% 0 0 70%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0px;
 }
 .right-face {
     width: 50px;
@@ -84,7 +85,8 @@ body {
 }
 
 .rockman-face {
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     position: relative;
 }
 
@@ -197,6 +199,7 @@ body {
     width: 30px;
     height: 220px;
     background-color:rgb(127, 255, 212);
+    border-radius: 50% 50% 0 0;
     float: left;
     display: block;
     margin-left: 85px;
@@ -206,6 +209,7 @@ body {
     width: 30px;
     height: 220px;
     background-color: rgb(127, 255, 212);
+    border-radius: 50% 50% 0 0;
     float: left;
     /* display: block; */
     margin-right: 85px;
