@@ -27,7 +27,7 @@ body {
     margin: auto;
 }
 
-.top, .semi-top {
+.rockman-button-top, .rockman-button-semi-top {
     width: 80px;
     height: 60px;
     background-color: rgb(255, 200, 0);
@@ -195,7 +195,16 @@ body {
 
 }
 
-.side-bar-left {
+.right-horn {
+    width: 30px;
+    height: 220px;
+    background-color: rgb(127, 255, 212);
+    border-radius: 50% 50% 0 0;
+    float: left;
+    /* display: block; */
+    margin-right: 85px;
+}
+.left-horn {
     width: 30px;
     height: 220px;
     background-color:rgb(127, 255, 212);
@@ -205,16 +214,7 @@ body {
     margin-left: 85px;
 }
 
-.side-bar-right {
-    width: 30px;
-    height: 220px;
-    background-color: rgb(127, 255, 212);
-    border-radius: 50% 50% 0 0;
-    float: left;
-    /* display: block; */
-    margin-right: 85px;
-}
-.kobayshi {
+.rockman-button {
     width: 90px;
     height: 60px;
     float: left;
@@ -314,9 +314,9 @@ body {
 .main-body {
     width: 160px;
     height: 250px;
-    background-color: rgb(62, 62, 200);
+    background-color: rgb(22, 22, 102);
     float: left;
-    box-shadow: -20px -10px 40px rgb(22, 22, 102) inset;
+    /* box-shadow: -20px -10px 40px rgb(22, 22, 102) inset; */
 }
 
 .side-line {
