@@ -22,44 +22,40 @@ body {
 .container-1 {
     width:370px;
     height: 210px;
-    /* display: block; */
-    /* text-align: center; */
     margin: auto;
 }
 
-.top, .semi-top {
+.rockman-button-top, .rockman-button-semi-top {
     width: 80px;
     height: 60px;
     background-color: rgb(255, 200, 0);
     border: 3px solid rgb(0, 0, 0);
-    /* display: block; */
-    /* float: left; */
 }
-.top {
+.rockman-button-top {
     border-radius: 20px 20px 5px 5px;
     margin-top: 5px;
     margin-bottom: 35px;
+    box-shadow: -4px -4px rgb(255, 180, 0) inset;
 }
-.semi-top {
+.rockman-button-semi-top {
     border-radius: 5px;
+    box-shadow: 3px 3px 8px rgb(255, 255, 255) inset;
 }
     
 
 .face {
-    width: 300px;
+    width: 305px;
     height: 200px;
-    background-color: rgb( 255, 217, 168);
+    background-color: rgb( 255, 214, 165);
     border: 5px solid rgb(0, 0, 0);
     border-radius: 0px 0px 400px 400px;
     float: left;
     text-align: center;
-    border-collapse: collapse;
 }
 
 .hikaru {
-    width: 300px;
+    width: 305px;
     height: 200px;
-    /* margin:auto; */
     text-align: center;
 }
 
@@ -70,7 +66,8 @@ body {
     float: left;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 70% 0 0 70%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0px;
 }
 .right-face {
     width: 50px;
@@ -82,31 +79,18 @@ body {
 }
 
 .rockman-face {
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
+    position: relative;
 }
 
 .triangle{
-    /* width: 40px;
-    height: 40px;
-    background-color: rgb(30, 145, 255);
-    float: left;
-    margin: 0px 20px 0px 40px; */
-    /* border-right: 50px solid transparent;
-    border-bottom: 86.6025px solid #b2ce54;
-    border-left: 50px solid transparent;  */
-    /* width: 100px;
-    height: 100px;
-    background-color: rgb(21, 120, 255); */
-    /* margin: auto; */
-    /* width: 100px; */
     height: 55px;
     border-top: 75px solid rgb(26, 140, 255);
-    border-right: 57px solid transparent;
-    border-left: 57px solid transparent;
+    border-right: 62px solid transparent;
+    border-left: 62px solid transparent;
     float: left;
     margin:auto;
-
-    /* margin-left: 42px; */
 }
 
 
@@ -190,24 +174,26 @@ body {
 
 }
 
-.side-bar-left {
+.right-horn {
+    width: 30px;
+    height: 220px;
+    background-color: rgb(127, 255, 212);
+    border-radius: 50% 50% 0 0;
+    float: left;
+    /* display: block; */
+    margin-right: 85px;
+}
+.left-horn {
     width: 30px;
     height: 220px;
     background-color:rgb(127, 255, 212);
+    border-radius: 50% 50% 0 0;
     float: left;
     display: block;
     margin-left: 85px;
 }
 
-.side-bar-right {
-    width: 30px;
-    height: 220px;
-    background-color: rgb(127, 255, 212);
-    float: left;
-    /* display: block; */
-    margin-right: 85px;
-}
-.kobayshi {
+.rockman-button {
     width: 90px;
     height: 60px;
     float: left;
@@ -223,6 +209,7 @@ body {
     border-radius: 75% 0 0 75%;
     float: right;
     margin-top: 15px;
+    display: absolute;
 }
 
 .right-face-1 {
@@ -233,6 +220,7 @@ body {
     border-radius: 0 75% 75% 0;
     float: left;
     margin-top: 15px;
+    position: absolute;
 }
 
 .nose  {
@@ -245,7 +233,107 @@ body {
 .mouse {
     height: 30px;
     width: 120px;
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
     margin: auto;
-    /* border-radius: 5px; */
+    border-radius: 75%;
+}
+.piyopiyo{
+    width: 800px;
+    height: 800px;
+}
+
+.rockman-body {
+    width: 85px;
+    height: 30px;
+    background-color: rgb(22, 22, 102);
+    margin-left: 173px;
+}
+
+.left-body, .right-body {
+    width: 80px;
+    height: 75px;
+    background-color: rgb(255, 180, 0);
+    margin-top: 5px;
+}
+.left-body {
+    border-radius: 50% 25% 25% 50%;
+    float: right;
+}
+.right-body {
+    border-radius: 25% 50% 50% 25%;
+    float: left;
+}
+.right-body-1 {
+    width: 140px;
+    height: 85px;
+    background-color: rgb(22, 22, 102);
+    border-radius: 0 30px 30px 0;
+    float: left;
+}
+
+.left-body-1 {
+    width: 140px;
+    height: 85px;
+    background-color: rgb(22, 22, 102);
+    float: left;
+    border-radius: 30px 0 0 30px;
+}
+.left-body-2 {
+    width: 50px;
+    height: 38px;
+    background-color: rgb(255, 180, 0);
+    margin: 20px 0 0 10px;
+    float: left;
+
+}
+
+.main-body {
+    width: 160px;
+    height: 230px;
+    background-color: rgb(22, 22, 102);
+    float: left;
+}
+
+.side-line {
+    width: 25px;
+    height: 160px;
+    background-color: rgb(127, 255, 212);
+    border-radius: 0 30px 45px 0;
+    margin-top: 85px;
+    float:left;
+}
+.body-soul {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 200, 0);
+    border-radius: 50%;
+    margin: 30px auto;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.body-soul-red {
+    width: 85px;
+    height: 85px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: auto 7px;
+}
+/* .red-soul-right, .red-soul-left{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+}
+.red-soul-right {
+    border-radius: 40% 40% 0 0;
+
+}
+.red-soul-left {
+    border-radius: 0 0 50% 50%;
+    margin: 5px 0 0 25px;
+} */
+.red-soul-right-1, .red-soul-left-1 {
+    width: 18px;
+    height: 10px;
+    background-color: rgb(255, 0, 0);
 }
