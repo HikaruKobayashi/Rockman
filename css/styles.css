@@ -261,7 +261,7 @@ body {
     width: 100px;
     height: 30px;
     background-color: rgb(46,50,88);
-    box-shadow: -10px 1px 5px rgb(20,21,41) inset;
+    box-shadow: -53px 1px 5px rgb(20,21,41) inset;
     margin-left: 173px;
 }
 
@@ -286,6 +286,7 @@ body {
     width: 180px;
     height: 300px;
     background-color: rgb(46,50,88);
+    box-shadow: -78px 1px 5px rgb(20,21,41) inset;
     display:inline-block;
     transform:skewX(20deg);
     margin-left: 150px;
@@ -402,6 +403,15 @@ body {
     border-radius: 10px 0 0 0;
 }
 
+.left-elbow {
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(20,21,41);
+    margin: 70px 0 0 320px;
+    transform:skewX(20deg);
+}
+
 .wrist-1 {
     width: 120px;
     height: 120px;
@@ -428,11 +438,47 @@ body {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: rgb(44,136,199);
+    background-color: #2c88c7;
     border: 3px solid rgb(0, 0, 0);
     z-index: 10;
     position: absolute;
     margin: 20px 0 0 10px;
+}
+
+.wrist-4 {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(40,138,203);
+    border: 3px solid rgb(0, 0, 0);
+    z-index: 10;
+    position: absolute;
+    margin: 150px 0 0 340px;
+    border-radius: 50px 60px 30px 30px;
+    transform:skewX(-20deg);
+}
+
+.wrist-5 {
+    width: 40px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(34,84,141);
+    border: 3px solid rgb(0, 0, 0);
+    z-index: 10;
+    position: absolute;
+    margin: 12px 0 0 43px;
+}
+
+.wrist-6 {
+    width: 75px;
+    height: 36px;
+    background-color: rgb(44,136,199);
+    border: 3px solid rgb(0, 0, 0);
+    z-index: 10;
+    position: absolute;
+    margin: 15px 0 0 30px;
+    border-left: none;
+    border-right: none;
+    transform:skewX(-20deg);
 }
 
 .finger-1 {
@@ -493,6 +539,50 @@ body {
     border-radius: 5px 15px 0px 0px;
 }
 
+.finger-6 {
+    width: 22px;
+    height: 40px;
+    background-color: rgb(44,136,199);
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    transform:skewX(35deg);
+    margin: 150px 0 0 500px;
+    border-top: none;
+}
+.finger-7 {
+    width: 22px;
+    height: 40px;
+    background-color: rgb(44,136,199);
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    transform:skewX(35deg);
+    margin: 170px 0 0 500px;
+    border-right: none;
+    border-top: none;
+}
+.finger-8 {
+    width: 22px;
+    height: 40px;
+    background-color: rgb(44,136,199);
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    transform:skewX(35deg);
+    margin: 190px 0 0 500px;
+    border-right: none;
+    border-top: none;
+}
+.finger-9 {
+    width: 22px;
+    height: 40px;
+    background-color: rgb(44,136,199);
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    transform:skewX(35deg);
+    margin: 210px 0 0 500px;
+    border-right: none;
+    border-top: none;
+}
+
 .fist {
     width: 96px;
     height: 30px;
@@ -504,6 +594,15 @@ body {
     border-top: none;
     border-radius: 0px 0px 35px 60px;
     transform:skewX(-7deg);
+}
+
+.left-fingers {
+    width: 80px;
+    height: 73px;
+    background-color: rgb(44,136,199);
+    position: absolute;
+    margin: 153px 0 0 460px;
+    border-radius: 70px 80px 60px 60px;
 }
 
 .right-leg {
@@ -520,7 +619,7 @@ body {
 .left-leg {
     width: 110px;
     height: 300px;
-    background-color: rgb(46,50,88);
+    background-color: rgb(20,21,41);
     display:inline-block;
     transform:skewX(15deg);
     left: 50px;
@@ -582,7 +681,7 @@ body {
     z-index: 5;
 }
 
-.former {
+.former-1 {
     width: 98px;
     height: 130px;
     background-color: rgb(41,137,200);
@@ -593,4 +692,28 @@ body {
     z-index: 10;
     border-top: none;
     border-radius: 0 0 50px 70px;
+}
+
+.left-shin-2 {
+    width: 100px;
+    height: 150px;
+    background-color: rgb(41,137,200);
+    border: 3px solid rgb(0, 0, 0);
+    position: absolute;
+    margin: 595px 0 0 405px;
+    transform:skewX(18deg);
+    z-index: 5;
+}
+
+.former-2 {
+    width: 220px;
+    height: 80px;
+    background-color: rgb(41,137,200);
+    border: 3px solid rgb(0, 0, 0);
+    position: absolute;
+    margin: 748px 0 0 410px;
+    transform:skewX(-25deg);
+    z-index: 10;
+    border-top: none;
+    border-radius: 0 70% 50px 45%;
 }
