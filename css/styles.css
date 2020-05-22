@@ -465,18 +465,17 @@ body {
     border: 2px solid rgb(0, 0, 0);
     z-index: 9;
     position: absolute;
-    margin: 12px 0 0 43px;
+    margin: 13px 0 0 41px;
 }
 
 .wrist-6 {
     width: 75px;
     height: 52px;
     background-color: rgb(44,136,199);
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     z-index: 10;
     position: absolute;
     margin: 15px 0 0 34px;
-    border-left: none;
     border-right: none;
     transform:skewX(-20deg);
 }
