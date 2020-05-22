@@ -134,12 +134,9 @@ body {
     width: 15px;
     height:55px;
     background-color: rgb(21,58,30);
-    /* border: 2px solid rgb(0,0,0); */
     border-radius: 50%;
     margin: auto;
     margin-top: 15px;
-    /* float: right; */
-    /* margin: 5px 5px 0px 10px; */
 }
 .left-eye-3 {
     width: 10px;
@@ -157,8 +154,6 @@ body {
     border-radius: 50% 50% 60% 45%;
     margin-right: 20px;
     border-top: 4px solid rgb(0, 0, 0);
-    /* margin-right: 30px; */
-    /* display:block; */
 }
 .right-eye-1 {
     width: 45px;
@@ -194,7 +189,6 @@ body {
     background-color: rgb(178,232,206);
     border-radius: 50% 50% 0 0;
     float: left;
-    /* display: block; */
     margin-right: 85px;
 }
 .left-horn {
@@ -333,7 +327,7 @@ body {
     background-color: rgb(255, 200, 0);
     border-radius: 50%;
     margin: 40px 0 0 70px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .body-soul-red {
@@ -362,6 +356,7 @@ body {
     width: 100px;
     height: 80px;
     background-color: rgb(254,199,8);
+    box-shadow: -80px 1px 5px rgb(244,189,8) inset;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 80px 60px 70px 40px;
     position: absolute;
@@ -371,7 +366,6 @@ body {
 .left-shoulder {
     width: 100px;
     height: 80px;
-    /* background-color: rgb(241,113, 7); */
     background-color: rgb(254,199,8);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 40px 50px 50px 80px;
@@ -382,7 +376,6 @@ body {
 .left-sub-shoulder {
     width: 20px;
     height: 65px;
-    /* background-color: rgb(241,113, 7); */
     background-color: rgb(254,199,8);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 0 20px 0 0;
@@ -479,6 +472,7 @@ body {
     margin: 15px 0 0 34px;
     border-right: none;
     transform:skewX(-20deg);
+    border-radius: 3px 0 0 3px;
 }
 
 .finger-1 {
@@ -764,12 +758,12 @@ body {
 }
 
 .left-shin-2 {
-    width: 100px;
+    width: 102px;
     height: 150px;
     background-color: rgb(41,137,200);
     border: 3px solid rgb(0, 0, 0);
     position: absolute;
-    margin: 595px 0 0 405px;
+    margin: 595px 0 0 403px;
     transform:skewX(18deg);
     z-index: 5;
 }
@@ -780,7 +774,7 @@ body {
     background-color: rgb(41,137,200);
     border: 3px solid rgb(0, 0, 0);
     position: absolute;
-    margin: 747px 0 0 410px;
+    margin: 747px 0 0 408px;
     transform:skewX(-25deg);
     z-index: 10;
     border-top: none;
