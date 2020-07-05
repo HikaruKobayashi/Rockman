@@ -722,12 +722,13 @@ body {
 } */
 
 .right-shin-3 {
-    width: 100px;
+    width: 102px;
     height: 150px;
     background-color: rgb(41,137,200);
     border: 3px solid rgb(0, 0, 0);
+    border-top: none;
     position: absolute;
-    margin: 600px 0 0 44px;
+    margin: 600px 0 0 45px;
     transform:skewX(-18deg);
     z-index: 3;
 }
@@ -758,12 +759,13 @@ body {
 }
 
 .left-shin-2 {
-    width: 102px;
+    width: 104px;
     height: 150px;
     background-color: rgb(41,137,200);
     border: 3px solid rgb(0, 0, 0);
+    border-top: none;
     position: absolute;
-    margin: 595px 0 0 403px;
+    margin: 595px 0 0 401px;
     transform:skewX(18deg);
     z-index: 5;
 }
