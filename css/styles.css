@@ -660,9 +660,44 @@ body {
     display:inline-block;
     transform:skewX(15deg);
     left: 50px;
-    border-radius: 5px 3px 0 0;
+    border-radius: 0 0 40% 50px;
     position: absolute;
     margin: 299px 0 0 295px;
+    z-index: 10;
+}
+
+.left-armor-1 {
+    width: 130px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(44,136,199);
+    position: absolute;
+    margin: 564px 0 0 353px;
+    border: 3px solid rgb(0, 0, 0);
+    transform: rotate(-10deg);
+    z-index: 6;
+}
+.left-armor-2 {
+    width: 80px;
+    height: 20px;
+    background-color: rgb(44,136,199);
+    position: absolute;
+    margin: 583px 0 0 387px;
+    transform: rotate(-10deg);
+    z-index: 15;
+    border-radius: 0 0 15px 25px;
+}
+.left-armor-3 {
+    width: 131px;
+    height: 65px;
+    background-color: rgb(44,136,199);
+    position: absolute;
+    margin: 583px 0 0 358px;
+    transform: rotate(-10deg);
+    border: 2px solid rgb(0, 0, 0);
+    border-top: none;
+    border-radius: 5px 0 50% 50%;
+    z-index: 5;
 }
 
 .hidden-leg-1 {
@@ -694,32 +729,6 @@ body {
     transform:skewX(-23deg);
     z-index: 30;
 }
-
-/* .right-shin-1 {
-    width: 130px;
-    height: 60px;
-    background-color: rgb(41,137,200);
-    border: 2px solid rgb(0, 0, 0);
-    position: absolute;
-    margin: 565px 0 0 55px;
-    border-radius: 50%;
-    transform:skewX(10deg);
-    z-index: 5;
-} */
-
-/* .right-shin-2 {
-    width: 130px;
-    height: 70px;
-    background-color: rgb(29,135,198);
-    border: 3px solid rgb(0, 0, 0);
-    position: absolute;
-    margin: 580px 0 0 45px;
-    border-radius: 30px 60px 30px 90px;
-    transform:
-        rotate(10deg)
-        skewX(-30deg);
-    z-index: 4;
-} */
 
 .right-shin-3 {
     width: 102px;
@@ -759,40 +768,86 @@ body {
 }
 
 .left-shin-2 {
-    width: 104px;
+    width: 75px;
     height: 150px;
     background-color: rgb(41,137,200);
     border: 3px solid rgb(0, 0, 0);
     border-top: none;
+    border-bottom: none;
     position: absolute;
-    margin: 595px 0 0 401px;
+    margin: 620px 0 0 415px;
     transform:skewX(18deg);
-    z-index: 5;
+    z-index: 3;
+}
+.left-shin-2-sub-1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(41,137,200);
+    border: 2px solid rgb(0, 0, 0);
+    border-top: none;
+    border-radius: 10px 0 0 70%;
+    position: absolute;
+    margin: 622px 0 0 372px;
+    transform:skewX(30deg);
+    z-index: 2;
+}
+.left-shin-2-sub-2 {
+    width: 14px;
+    height: 18px;
+    background-color: rgb(41,137,200);
+    border-radius: 0 0 0 15px;
+    position: absolute;
+    margin: 651px 0 0 397px;
+    z-index: 4;
+}
+.left-shin-2-sub-3 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(41,137,200);
+    border: 2px solid rgb(0, 0, 0);
+    border-top: none;
+    border-radius: 0 0 70% 0;
+    position: absolute;
+    margin: 617px 0 0 432px;
+    transform:skewX(-10deg);
+    z-index: 2;
+}
+.left-shin-2-sub-4 {
+    width: 14px;
+    height: 18px;
+    background-color: rgb(41,137,200);
+    border-radius: 0 0 10px 0;
+    position: absolute;
+    margin: 632px 0 0 468px;
+    z-index: 4;
 }
 
 .former-2 {
-    width: 220px;
-    height: 80px;
+    width: 100px;
+    height: 78px;
     background-color: rgb(41,137,200);
-    border: 3px solid rgb(0, 0, 0);
     position: absolute;
-    margin: 747px 0 0 408px;
+    margin: 750px 0 0 426px;
     transform:skewX(-25deg);
     z-index: 10;
-    border-top: none;
-    border-radius: 0 70% 50px 45%;
+    border-radius: 50%;
 }
 .former-4 {
-    width: 220px;
-    height: 80px;
-    background-color: rgb(46,50,88);
-    border: 3px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 70px;
+    background-color: rgb(41,137,200);
     position: absolute;
-    margin: 755px 0 0 410px;
-    transform:skewX(-25deg);
-    z-index: 9;
-    border-top: none;
-    border-radius: 0 70% 50px 45%;
+    margin: 755px 0 0 450px;
+    border-radius: 50%;
+    transform:skewX(40deg);
+}
+.former-5 {
+    width: 180px;
+    height: 50px;
+    background-color: rgb(41,137,200);
+    position: absolute;
+    border-radius: 0 30% 30% 0 ;
+    margin: 778px 0 0 450px;
 }
 
 .toe-1 {
