@@ -5,8 +5,7 @@ This is aim to draw the "Rock Man" .
 
 Current status
 =================
-<img width="525" src="https://user-images.githubusercontent.com/51415392/82670395-04471f80-9c78-11ea-8ba5-81a171602097.png">
-
+<img width="525" src="https://user-images.githubusercontent.com/51415392/86560169-adcc4100-bf98-11ea-899d-2c606fe023c6.png">
 
 Rule
 ====
